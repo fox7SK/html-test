@@ -1,0 +1,271 @@
+
+
+body {background:#000000 url(../img/ryzen.jpg) right top no-repeat;}
+
+.fl p:first-letter {color: rgb(48, 104, 48);font-family: 'Rufina', serif;font-size:40px; }
+	
+
+h5.gc { text-align: right;font-size: 24px;}
+.rg {font-size: 20px;}
+
+
+
+
+#st1 {background-color: rgba(184, 17, 11, 0.150);}
+#st2 {background-color: rgba(30, 114, 37, 0.150);}
+#st3 {background-color: rgba(36, 38, 105, 0.150);}
+
+
+
+
+
+
+.fio {color: rgb(192, 165, 9) ; }
+
+.legendf { text-align: center;font-size: 30px; color: #43a329;}
+
+/*Ramki*/
+.txtinput:focus  {outline: none;border: 2px solid #43a329;}
+#os:focus {outline: none;border: 2px solid #43a329;}
+
+/*img:hover {outline: 6px solid #43a329;}*/
+
+.imgs {border: 6px solid transparent;}
+
+.imgs:hover {border: 6px solid #43a329;}
+
+
+
+/* menu */
+
+a.li1 {font-family: 'Lobster', cursive; font-size:large; }
+
+.bg {color: rgb(60, 185, 117);}
+
+.li1 a:link {
+  color: #497DDD;
+  text-decoration: none;
+}
+.li1 a:visited {
+  color: #43a329; 
+  
+}
+.li1 a:hover {
+  color: #cbf11e; 
+  text-decoration:underline;
+}
+.li1 a:active {
+  color: #5a0909; 
+  
+}
+
+/* link */
+
+a{font-family: 'Lobster', cursive; font-size:large;}
+
+
+a:link {
+  color: #497DDD;
+  
+}
+a:visited {
+  color: #43a329; 
+  
+}
+ a:hover {
+  color: #a5ce9a; 
+  text-decoration: none;
+}
+a:active {
+  color: #5a0909; 
+  
+}
+
+
+.gg:link{
+  color: #497DDD;
+  text-decoration: none;
+}
+.gg:visited {
+  color:  #58925f;
+  text-decoration: none;
+  
+ 
+}
+.gg:hover {
+  color: #a5ce9a;
+}
+.gg :active {
+  color: #570606; 
+  }
+
+  .rg:link{
+    color: #497DDD;
+    
+  }
+  .rg:visited {
+    color: rgb(192, 165, 9);
+
+   
+  }
+  .rg:hover {
+    color: #a5ce9a;
+    text-decoration: none;
+  }
+  .rg :active {
+    color: #570606; 
+    }
+
+/*ZAGOLOVOK*/
+
+h1 { color: rgb(194, 18, 18);text-align: center;
+  font-family: 'Fredoka One', cursive; font-size:40px;}
+
+  h2{text-align: center;
+    font-family: 'Fredoka One', cursive; font-size:30px ;}
+
+    h3 {color: rgb(192, 165, 9);text-align: center;}
+
+    h4 {color: rgb(192, 165, 9);font-size: 30px;text-align: center;}
+
+    b {color: dodgerblue;font-size: 25px;}
+    q {color:#fc59aa}
+em {color:slategrey;font-size: 20px;}
+li {color:aqua}
+   
+/* knopki */
+
+    button:active {background-color: red;}
+    button:hover {border: 3px solid green;}
+    button {border: 3px solid transparent;}
+    button:hover {transform: scale(1.2);}
+
+    .stfirst {background-color: aqua;}
+
+
+
+    
+
+article {color: rgb(252, 252, 252);font-family: 'Rufina', serif;font-size:25px;}
+
+.coment {color: rgb(252, 252, 252);}
+
+
+
+#telefon {position: relative;left: 1400px;}
+
+#cell {font-size: 25px;}
+
+#adress {position: relative;left: 250px; }
+
+#carta {position: relative;left: 500px;}
+
+#img3 {float:right;}
+
+#img3s {float: left;}
+
+#imgs1 {float:right;width: 800px;height: 700px;}
+
+
+#img2 {float:left;}
+
+div.block {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 250px;
+  
+  
+}
+
+
+
+#imgdvap:hover {background-image: url(../img/fondva.jpg);}
+
+.info {position: absolute; bottom: auto;left: 16px;}
+
+
+#catalog {font-family: 'Lobster', cursive; font-size:30px; }
+
+
+#listc {position:relative;left: 500px;}
+
+
+
+
+
+.new { color: #fc59aa;}
+
+
+#tvl {list-style-image: url(../img/tv2.png);}
+
+#oled {list-style-image: url(../img/tv.png);}
+
+#stru  {list-style-image: url(../img/print-icon.png);}
+
+#laser  {list-style-image: url(../img/laser.png);}
+
+#pc  {list-style-image: url(../img/Memory-icon.png);}
+
+#nout  {list-style-image: url(../img/Memory-Module-icon.png);}
+
+#server  {list-style-image: url(../img/Memory-Scope-icon.png);}
+
+.ugg {
+  display:inline-block;
+  padding: 5px;
+  margin:0px;
+ /*background:rgba(69, 236, 13, 0.055);*/
+  color:#43a329;
+}
+
+
+ .listc 
+ {width: 400px;font-size: 35px;}
+
+
+
+ .listc ul li:nth-child(odd)  {background: rgba(30, 114, 37, 0.150);font-size: 25px;width: 270px;color:rgb(192, 165, 9);}
+
+ .listc ul li:nth-child(even)  {background: rgba(184, 17, 11, 0.150);font-size: 25px;width: 270px;color: rgb(192, 165, 9);}
+ 
+ 
+
+ #catalog {display: flex;justify-content: center;}
+
+ .new 
+ {color: black;
+  background:rgba(251, 255, 0, 0.952);
+padding: 0px;
+margin: 10px;
+font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+

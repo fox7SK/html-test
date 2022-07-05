@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <h1>Регистрация</h1>
+    
+    <nav class="bg">
+        <ul>
+    <li class="li1"><a href="index.html">Главная страница</a></li>
+    <li class="li1"><a href="catalog.html">Каталог</a></li>
+    <li class="li1" ><a href="articlemein.html">Статьи</a>
+    <li class="li1" ><a href="Galery.html">Галерея изображений</a></li>
+    <li class="li1"><a href="Reg.html">Регистрация</a></li>
+    <li class="li1" ><a href="Contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+<form action="#" method="post" enctype="multipart/form-data">
+
+<fieldset class="fio">
+    <legend class="legendf">Ф.И.О</legend>
+
+    <div>
+        <p>Фамилия</p>
+       <input type="text" name="lostname" class="txtinput">
+    </div>
+
+    <div>
+        <p>Имя</p>
+       <input type="text" name="name" class="txtinput">
+    </div>
+
+    <div>
+        <p>Отчество</p>
+       <input type="text" name="potranymic" class="txtinput">
+    </div>
+</fieldset>
+
+<fieldset class="fio">
+
+<legend class="legendf">Логин и пароль </legend>
+
+<div>
+    <label>Логин
+    <input id="login" type="text" name="login" class="txtinput">
+    </label>
+</div>
+<br>
+<div>
+    <label> Пароль
+    <input id="password" type="password" name="password" class="txtinput">
+</label>
+</div>
+
+<br>
+
+<div>
+    <p> Адрес электронной почты</p>
+     
+    <input id="email" type="email" name="email" value="example7@gmail.com" class="txtinput">
+</div>
+</fieldset>
+
+<fieldset class="fio">
+    <legend class="legendf">Дополнительная информация</legend>
+
+<div>
+    <p>Адрес Сайта </p>
+
+    <input type="url" name="url" id="url" value="//http:"class="txtinput">
+</div>
+
+
+    <div>
+        <p>Добавьте фотографию </p>
+
+       <input type="file" value="Добавьте фотографию " name="foto" id="foto">
+       
+    </div>
+<br>
+
+
+                   <p>Выбирите пол</p>
+    <div>
+        <input type="radio" checked name="gender" id="male" value="male"> Мужской <br>
+    </div> 
+
+    <div>
+<input type="radio" name="gender" id="famile" value="famile">Женский <br>
+    </div>
+
+
+    <div>
+        <p>Выбирите дату рождения</p>
+
+<input type="date" value="calendar" name="date">
+    </div>
+
+
+<div>
+    <p>Ваше любимое блюдо</p>
+
+    <input type="checkbox" name="olivye" id="olivye" value="olivye">Оливье<br>
+ </div>
+
+ <div>
+    <input type="checkbox" name="pelmeni" id="pelmeni" value="pelmeni">Пельмени<br>
+ </div>
+
+ <div>
+    <input type="checkbox" name="golupci" id="golupci" value="golupci">Голупцы<br>
+ </div>
+
+ <div>
+    <input type="checkbox" name="suhi" id="suhi" value="suhi">Суши<br>
+ </div>
+
+ <div>
+    <p>О себе </p>
+    <textarea name="text" id="os" cols="30" rows="10"></textarea>
+ </div>
+</fieldset>
+
+<br>
+
+<div>
+<button type="submit">Зарегистрироваться</button> 
+<button type="reset">Очистить Форму</button>
+</div>
+</form>
+
+
+    
+
+
+       
+</body>
+</html>

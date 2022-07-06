@@ -125,11 +125,14 @@ h1 { color: rgb(194, 18, 18);text-align: center;
     font-family: 'Fredoka One', cursive; font-size:30px;
     border-bottom:  2px solid transparent ;
     padding: 3px;
+    width: 80%;
   }
 
-  h2:hover{  border-bottom: 2px solid rgba(45, 155, 54, 0.363);
+  h2:hover{  border-bottom: 2px solid rgba(45, 155, 54, 0.664);
     padding-bottom: 3px;
    /* float: left;*/
+   transition: 2s;
+   width: 100%;
   }
     
  
@@ -251,6 +254,9 @@ margin: 10px;
 font-size: medium;
 }
 
+
+
+  
 
 
 
